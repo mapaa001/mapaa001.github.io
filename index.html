@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Martin | About</title>
+        <link rel="stylesheet" href="css\style.css">
+        <meta>
+    </head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .imgbox {
+            display: grid;
+            height: 100%;
+        }
+        .center-fit {
+            max-width: 100%;
+            max-height: 100vh;
+            margin: auto;
+        }
+    </style>
+    <button onclick="topFunction()" class="toppbutton" title="Go to top">Topp</button>
+    <body>
+        <div>
+            <img class="main-background" src="images\le riven v yas.jpg" width="100%" height="300%" alt="">
+        </div>
+        <header>
+            <div id="navbar">
+                <a href="#default" id="logo">Martin</a>
+                <div id="navbar-right">
+                  <a class="active" href="#home">Home</a>
+                  <a href="#contact">About</a>
+                  <a href="#Projects">Projects</a>
+                  <a href="#about">Links</a>
+
+                </div>
+              </div>
+               
+            </nav>
+            <section id=welcome-section>
+                <h1 class="martin-title-large">Martin</h1>
+            </section>
+             
+        </header>
+        <section id="about" class="section-content">
+        <h2 class="artist-logo">ABOUT</h2>
+        </section>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime perspiciatis possimus dolorem illo nemo fugit consequatur tempore distinctio. <b>
+            </b> Ducimus nisi molestiae aut ratione repellat quam possimus deserunt, facere eligendi sed corrupti quia rerum expedita itaque cumque soluta tenetur dolores, consequatur inventore velit numquam deleniti dolore. <b>
+            </b> Voluptates magni architecto neque molestias culpa, consectetur ex quae voluptatibus impedit error ducimus excepturi, non quasi minima quam harum adipisci, enim aperiam deleniti quaerat numquam officia ut quis eius. <b>
+            </b> Nihil, dolore eveniet iure sed commodi pariatur, consequatur aliquid possimus beatae ab aspernatur minima numquam quod, doloremque repudiandae a quasi! Commodi, modi eaque! Corrupti, beatae dignissimos!
+        </p>
+
+        <footer id="links" class="main-footer">
+            <div class="container main-foot-container">
+                <h3 class="main-footer-text">Martin</h3>
+                <ul class="nav footer-nav">
+                    <li>
+                        <a href="" target="_blank">
+                            <img src="images\YouTube-Logo.png" height="100px" lenght="100px" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" target="_blank">
+                            <img src="images\2560px-Spotify_logo_with_text.svg.png" height="50px" lenght="50px" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" target="_blank">
+                            <img src="images\5a4e9e5b232b9ff0848852b19665cf59.jpg" height="100px" lenght="100px" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+        <script>
+// When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+    document.getElementById("navbar").style.padding = "30px 10px";
+    document.getElementById("logo").style.fontSize = "25px";
+  } else {
+    document.getElementById("navbar").style.padding = "80px 10px";
+    document.getElementById("logo").style.fontSize = "35px";
+  }
+}
+        </script>
+    </body>
+</html>
