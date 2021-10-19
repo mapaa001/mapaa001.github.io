@@ -1,30 +1,64 @@
 #welcome-section{
     top: 0;
-    background-image: url(images\background le git.jpg);
-    background-blend-mode: multiply;
-    background-size: cover;
     padding: 150px;
+
 }
 
 .background{
-    background-image: url(images\le riven v yas.jpg);
-    position: initial;
-    padding-top: 12.4%;
-    height: 593px;
+  background-image: url(images\le-riven-v-yas.jpg);
+  position: relative;
+  top: 209px;
+  float: inline-start;
+  
 }
 
-.main-background{
-  background-image: url(../images/background le git.jpg);
+.project1-image{
+  position: relative;
+  left: 279px;
+  bottom: 45px;
+  padding-bottom: 30px;
+}
+
+.project1-image {
+  width: 400px;
+  height: auto;
+}
+
+.project1-image {
+  width: 300px;
+  height: auto;
+}
+
+.project2-image{
+  position: relative;
+  left: 1060px;
+  bottom: 45px;
+  padding-bottom: 30px;
+}
+
+.project2-image {
+  width: 500px;
+  height: 400px;
+}
+
+
+body {
+  background-image: conic-gradient( #cd6144, #81b2d3);
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
 }
 
-
+.about-gif{
+  width: auto;
+  position: absolute;
+  bottom: 0px;
+  left: 1140px;
+  
+}
 
 html, body{
     margin: 0;
     padding: 0;
+    border: 0;
 }
  
 /* Create a sticky/fixed navbar */
@@ -54,7 +88,8 @@ html, body{
   /* Style the logo */
   #navbar #logo {
     font-size: 35px;
-    font-weight: bold;
+    font-weight: initial;
+    font-family: fantasy;
     transition: 0.4s;
   }
   
@@ -74,6 +109,7 @@ html, body{
   /* Display some links to the right */
   #navbar-right {
     float: right;
+    padding-right: 15px;
   }
   
   /* Add responsiveness - on screens less than 580px wide, display the navbar vertically instead of horizontally */
@@ -89,66 +125,134 @@ html, body{
     #navbar-right {
       float: none;
     }
-}
+} 
 
-
-
-.nav ul{
-    margin: 0;
-}
- 
-.nav li{
-    display: inline;
-}
- 
-.nav a{
-    color: rgb(128, 121, 121);
-}
- 
-
-.about-text{
+.about-title{
     text-align: center;
+    position: relative;
+    bottom: 200px;
     margin: 0;
     color: whitesmoke;
-    font-size: 3em;
+    font-size: 5em;
     font-family: fantasy;
 }
 
 .martin-title-large{
     font-size: 9em;
-    position: static;
+    position: relative;
+    bottom: 0px;
     padding: 0em;
     text-align: center;
     color: white;
     font-family: fantasy;
 }
 
-.nav a{
-    display: inline-block;
-    color: white;
-    text-decoration: none;
-    padding: 0.5em;
+.velkommen-undertitle{
+  position: relative;
+  text-align: center;
+  bottom: 140px;
+  font-family: fantasy;
+  color: white;
+  font-size: 4em;
+  padding: 0;
 }
 
+.project-title{
+  position: relative;
+  text-align: center;
+  font-family: fantasy;
+  color: white;
+  font-size: 5em;
+}
 
+.project1-text{
+  position: relative;
+  left: 350px;
+  font-family: fantasy;
+  color: white;
+  font-size: 3em;
+}
 
-.nav a:hover{
-    background-color: rgba(255, 255, 255, .2);
+.project2-text{
+  position: relative;
+  left: 1500px;
+  bottom: 108.2px;
+  font-family: fantasy;
+  color: white;
+  font-size: 3em;
+  margin: 0;
+}
+
+.about-text-title{
+  position: relative;
+  left: 350px;
+  bottom: 108.2px;
+  font-family: fantasy;
+  color: white;
+  font-size: 3em;
+  margin: 0;
+}
+
+.about-text{
+  position: relative;
+  left: 200px;
+  bottom: 108.2px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(233, 222, 222);
+  font-size: 1.3em;
+  margin: 0;
+  max-width: 580px;
 }
 
 .main-footer{
-    margin-top: 10;
-    background-color: #110edb;
-    padding: 1em 0;
-    padding: 0 .5em;
+    background-color: #000000;
+    padding: 0;
+    height: 200px;
 }
 
 .section-content{
-    margin: 1em; /*top right bottom and left */
+  padding: 0;
 }
 
 .main-footer-text{
-    font-size: 300%;
-    font-family: fantasy;
-    color: rgb(168, 161, 161);
+  margin: 0;
+  position: relative;
+  left: 20%;
+  top: 70px;
+  font-size: 300%;
+  font-family: fantasy;
+  color: rgb(0, 0, 0);
+}
+
+.hr1{
+  position: relative;
+  bottom: 300px;
+}
+
+.footer-ul{
+  margin: 0%;
+}
+
+.github-img{
+  position: relative;
+  left: 42%;
+  background-color: transparent;
+  width: 80px;
+  height: 80px;
+}
+
+.instagram-img{
+  position: relative;
+  left: 42%;
+  background-color: transparent;
+  width: 80px;
+  height: 80px;
+}
+
+.spotify-img{
+  position: relative;
+  left: 42%;
+  background-color: transparent;
+  width: 80px;
+  height: 80px;
 }
