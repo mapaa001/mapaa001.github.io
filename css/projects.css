@@ -3,6 +3,10 @@ body {
   background-repeat: no-repeat;
 }
 
+body {
+  zoom: 75%;
+}
+
 .projects-large-title{
     text-align: center;
     position: relative;

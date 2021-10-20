@@ -4,6 +4,10 @@
 
 }
 
+body {
+  zoom: 75%;
+}
+
 html{ /* gjør at når trykker på href så håpper den smooth */
   scroll-behavior: smooth;
 }

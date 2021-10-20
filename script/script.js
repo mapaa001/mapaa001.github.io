@@ -10,3 +10,5 @@ function scrollFunction() {
     document.getElementById("logo").style.fontSize = "35px";
   }
 }
+
+document.body.style.zoom="90%"
