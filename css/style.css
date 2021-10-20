@@ -4,7 +4,7 @@
 
 }
 
-html{
+html{ /* gjør at når trykker på href så håpper den smooth */
   scroll-behavior: smooth;
 }
 
@@ -46,7 +46,7 @@ html{
   height: 400px;
 }
 
-.Projects img:hover{
+.Projects img:hover{ /* gjør at når hover kommer skygge */
   box-shadow: 0 0 50px black;
 }
 
@@ -54,7 +54,7 @@ body {
   overflow-x: hidden; /* gjemmer scrollbar */
 }
 
-body {
+body { /* bakgrunnen, to farger som deretter splittes */
   background-image: conic-gradient( #cd6144, #81b2d3);
   background-repeat: no-repeat;
 }
@@ -238,7 +238,7 @@ html, body{
   color: rgb(0, 0, 0);
 }
 
-.hr1{
+.hr1{ /* dividerings strek etter welcome section */
   position: relative;
   bottom: 300px;
 }
