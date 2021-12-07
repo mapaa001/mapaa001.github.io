@@ -6,6 +6,7 @@
 
 body {
   zoom: 75%;
+  height: 100vh;
 }
 
 html{ /* gjør at når trykker på href så håpper den smooth */
