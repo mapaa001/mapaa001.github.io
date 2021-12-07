@@ -6,9 +6,10 @@
 
 body {
   zoom: 75%;
+  
 }
 
-html{ /* gjør at når trykker på href så håpper den smooth */
+html{ /* gjør at når trykker på href så hopper den smooth */
   scroll-behavior: smooth;
 }
 
@@ -23,7 +24,7 @@ html{ /* gjør at når trykker på href så håpper den smooth */
 
 .project1-image{
   position: relative;
-  left: 279px;
+  left: 325px;
   bottom: 45px;
   padding-bottom: 30px;
 }
