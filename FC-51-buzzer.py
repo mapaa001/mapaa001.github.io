@@ -14,7 +14,7 @@ print ("IR Sensor Klar.....")
 print (" ")
 
 try:
-    while 1:    #True = 1
+    while True:    #True = 1
         if GPIO.input(sensor)==0:
             GPIO.output(buzzer,True)
             print("Objekt Oppdaget")
