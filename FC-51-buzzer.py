@@ -16,11 +16,13 @@ print (" ")
 try:
     while 1:    #True = 1
         if GPIO.input(sensor)==0:
-            GPIO.output(buzzer,False)
+            GPIO.output(buzzer,True)
             print("Objekt Oppdaget")
             time.sleep(0.5)
         else:
-                GPIO.output(buzzer,True)
+                GPIO.output(buzzer,False)
+                print("Ingen hindring!!")
+                time.sleep(0.5)
 except KeyboardInterrupt:
     print ("setting all GPIO pins to default") 
     GPIO.cleanup()  #set all GPIO to default state
